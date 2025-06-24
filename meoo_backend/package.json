@@ -34,7 +34,7 @@
     "luxon": "^3.4.4",
     "moment-timezone": "^0.5.43",
     "mongodb": "^6.0.0",
-    "mongoose": "^7.6.5",
+    "mongoose": "^7.8.7",
     "mongoose-plugin-autoinc": "^1.1.9",
     "node-cron": "^3.0.3",
     "nodemailer": "^6.9.5",

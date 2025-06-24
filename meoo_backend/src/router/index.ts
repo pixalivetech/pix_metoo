@@ -7,7 +7,7 @@ import User from './user.routes';
 import  Product  from './product.routes';
 import Panel from './panel.routes';
 import Company from './company.routes';
-import  Order  from './order.routes';
+// import  Order  from './order.routes';
 import  Language  from './language.routes';
 import  AddToCart from './addToCart.routes';
 import  Doctor  from './doctor.routes';
@@ -24,7 +24,7 @@ import  Coupon  from './coupon.routes';
 import ProductRating  from './productRating.routes';
 import DoctorReview  from './doctorReview.routes';
 import  PanelReview from './panelReview.routes';
-import  Payment  from './payment.routes';
+// import  Payment  from './payment.routes';
 
 
 router.use('/login', Login)
@@ -32,7 +32,7 @@ router.use('/user', User)
 router.use('/company', Company)
 router.use('/product', Product)
 router.use('/panel', Panel)
-router.use('/order', Order)
+// router.use('/order', Order)
 router.use('/language', Language)
 router.use('/addToCart', AddToCart)
 router.use('/doctor', Doctor)
@@ -49,6 +49,6 @@ router.use('/coupon', Coupon)
 router.use('/productRating', ProductRating)
 router.use('/doctorReview', DoctorReview)
 router.use('/panelReview', PanelReview)
-router.use('/payment', Payment)
+// router.use('/payment', Payment)
 
-export default router;
+export default router;  
