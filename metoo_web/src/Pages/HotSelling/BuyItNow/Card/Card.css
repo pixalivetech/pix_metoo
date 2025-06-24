@@ -1,0 +1,14 @@
+#btn_checkout {
+  background-color: #9265cc;
+  color: white;
+  font-weight: 700;
+}
+#font_card_head {
+  font-weight: 700;
+}
+#font_card_hr {
+  border: 4px solid black;
+}
+#amount_card {
+  color: gray;
+}

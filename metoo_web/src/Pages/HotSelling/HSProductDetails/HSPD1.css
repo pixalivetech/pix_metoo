@@ -1,0 +1,51 @@
+.text_color_heading {
+  color: #9266cc;
+}
+.text_color_heading_back {
+  background: #9266cc;
+  color: white;
+}
+.font_size_tax {
+  font-size: 13px;
+}
+.border_color a {
+  border: 2px solid #9266cc;
+}
+.size_small img {
+  width: 30vh;
+  height: auto;
+}
+
+.star {
+  font-size: 20px;
+  color: gold;
+}
+#review_comment_rate {
+  background-color: lightblue;
+}
+
+/* product_add css */
+/* HSPD1.css */
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 15vh;
+  border-radius: 10px;
+}
+
+.quantity-selector__button {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: none;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.QuantityDisplay {
+  border: none;
+  width: 30px;
+  text-align: center;
+  margin: 0 5px;
+}

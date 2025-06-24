@@ -1,0 +1,153 @@
+.cart-buy-btn {
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+}
+.textdesign {
+  text-align: justify;
+}
+.cart-buy-btn:hover {
+  background: rgb(150, 16, 212)!important;
+  color: white;
+}
+.sidee {
+  margin-left: 70px !important;
+}
+.side2 {
+  margin-left: 30px !important;
+}
+.cart-buy-btnn {
+  padding: 10px;
+  margin-left: 100px !important;
+  border-radius: 10px;
+  width: 200px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+}
+
+.cart-buy-btnn:hover {
+  background-color: rgb(150, 16, 212);
+  color: black;
+}
+
+.text-headings-color {
+  color: #1d1f6c;
+}
+
+.simliar-prod img {
+  width: 200px;
+  height: 200px;
+}
+
+.review_btn {
+  margin-left: 60%;
+}
+
+.cus-image {
+  width: 40px;
+  height: 40px;
+}
+
+.review_box {
+  margin-left: 30%;
+}
+
+.review_box input {
+  width: 50%;
+  height: 50px;
+}
+
+.review_box textarea {
+  width: 50%;
+  height: 100px;
+}
+
+.cus-star-rating {
+  margin-left: 600px;
+}
+
+.main_imgs img {
+  width: 100%;
+  height: 450px;
+}
+
+.sub_imgs img {
+  width: 120px;
+  height: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main_imgs img {
+    height: 400px;
+  }
+
+  .sub_imgs img {
+    width: 80px;
+    height: 80px;
+  }
+  .sidee {
+    margin-left: 0px !important;
+  }
+  .side2 {
+    margin-left: 0px !important;
+  }
+
+  .simliar-prod {
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .simliar-prod img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cart-buy-btn {
+    margin-left: 15px;
+    width: 150px;
+  }
+
+  .cart-buy-btnn {
+    margin-left: 20px !important;
+    width: 150px;
+  }
+
+  .review_btn {
+    margin-left: 10%;
+  }
+
+  .review_box {
+    margin-left: 0%;
+  }
+
+  .review_box input {
+    width: 100%;
+    height: 50px;
+  }
+
+  .review_box textarea {
+    width: 100%;
+    height: 100px;
+  }
+
+  .cus-star-rating {
+    margin-left: 0px;
+  }
+  .text_small {
+    font-size: 10px;
+  }
+  .reviewsmall {
+    margin-left: -35px;
+  }
+  .prod-rev {
+    margin-left: -20px;
+  }
+  .prod-rev-font {
+    font-size: 15px !important;
+  }
+}

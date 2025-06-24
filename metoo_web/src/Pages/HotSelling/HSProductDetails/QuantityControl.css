@@ -1,0 +1,38 @@
+.quantity-selector__button {
+  border: 1px solid #c2c2c2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: linear-gradient(#fff, #f9f9f9);
+}
+
+.button-content {
+  font-size: x-large;
+}
+
+.QuantityDisplay {
+  width: 8%;
+  text-align: center;
+  border: none;
+  position: relative;
+  top: -1px;
+  font-size: large;
+}
+
+.quantity-controller {
+  display: inline-flex;
+}
+
+.quantity-selector__button:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.quantity-selector__button:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

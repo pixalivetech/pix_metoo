@@ -1,0 +1,61 @@
+.q_and_a_bg {
+  position: relative;
+  background: url("../../Assests/images/q&a/Group\ 9.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+.q_and_a_content {
+  padding: 2rem;
+  filter: brightness(100%);
+  margin-left: 30%;
+}
+
+.q_and_a_content p,
+.q_and_a_content span {
+  color: white;
+}
+
+.fotcolo_change button {
+  background-color: #084383;
+  font-weight: bold;
+  color: white;
+}
+
+.ques-text {
+  margin-top: 150px !important;
+  margin-left: 400px !important;
+}
+
+.fotcolo_change button:hover {
+  background-color: #4d89c8;
+  font-weight: bold;
+  color: black;
+}
+
+#profile_img_size {
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .q_and_a_content {
+    margin-right: 30%;
+    margin-top: 150px !important;
+  }
+
+  .ques-text {
+    margin-top: 160px !important;
+    margin-left: 15px !important;
+  }
+
+  .q_and_a_bg {
+    background-position: left center;
+  }
+
+  .text-qa {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+  }
+}

@@ -1,0 +1,149 @@
+.category-img-head {
+  gap: 12px;
+}
+.TC {
+  color: blue !important;
+}
+
+.TCbg {
+  background: linear-gradient(to bottom right, rgb(234, 7, 255), #1414e393) !important;
+}
+
+.position-absolute.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.cat_name {
+  color: #1d1f6c;
+}
+
+.hotselling_head {
+  width: 100%;
+  background-color: #effafa;
+}
+
+.custom-bg-colour {
+  background-color: #939da7;
+}
+
+.product_card {
+  background-color: whitesmoke !important;
+}
+
+.product-container {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.product-img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 300px !important;
+  height: 250px !important;
+}
+
+.product-gif {
+  display: block;
+  width: 300px !important;
+  height: 250px !important;
+}
+
+.image-container:hover .product-img {
+  opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .category_small {
+    margin-left: 8px;
+    width: 60px;
+    height: 60px;
+    gap: 10px !important;
+  }
+
+  .category_small img {
+    margin-left: -11px;
+    margin-top: -12px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .category-img-head {
+    gap: 12px;
+  }
+
+  .product-img,
+  .product-gif {
+    width: 200px !important;
+    height: 150px !important;
+  }
+}
+
+
+.prd-img {
+  height: 250px;
+  border-radius: 35px;
+}
+
+.gif {
+  display: block;
+  margin-top: 1px;
+  border-radius: 35px;
+  opacity: 1;
+  transition: opacity 0.3s;
+  width: 250px;
+  height: 250px;
+}
+.img-container {
+  width: 100%;
+  height: 0;
+  padding-top: 75%; /* 4:3 aspect ratio (adjust as needed) */
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio while covering the entire container */
+  border-radius: 15px;
+  transition: transform 0.3s ease, opacity 0.3s; /* Add opacity transition */
+}
+
+.img-container img.gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.img-container:hover img.gif {
+  opacity: 0;
+}
+
+.img-container:hover img.prd-img {
+  transform: scale(1.1);
+}
+
+.star {
+  color: #ffc107; /* Default star color */
+}
+
+.star.filled {
+  color: #ffcc00; /* Filled star color */
+}

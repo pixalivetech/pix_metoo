@@ -1,0 +1,42 @@
+.changes_in_con_pp button {
+  border-style: none;
+  background-color: #1c2e46;
+  color: white;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.changes_in_con_pp button:hover {
+  border-style: none;
+  background-color: #eb2562;
+  color: white;
+  font-weight: bold;
+  border-radius: 18px;
+}
+.trackk {
+  width: 50% !important;
+}
+.vl {
+  border-left: 1px solid rgb(0, 0, 0);
+  height: 40px;
+}
+.text_change_size {
+  text-align: center;
+  color: rgba(202, 8, 8, 0.904);
+}
+.background_image_search {
+  background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../../Assests/images/Google-Maps-Platform.png);
+}
+.font_size_change a {
+  text-decoration: none;
+  color: gray;
+}
+@media screen and (max-width: 768px) {
+  .trackk {
+    width: 100% !important;
+  }
+}

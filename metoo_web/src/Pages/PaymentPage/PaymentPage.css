@@ -1,0 +1,83 @@
+.font_size_chnge_temp {
+  color: #582c83;
+}
+.chnage_prop_font {
+  max-width: 500px;
+  margin: auto;
+  color: black;
+
+  border-radius: 20 px;
+}
+
+.change_clr_font_pp {
+  color: #9851df;
+  font-size: 12px;
+}
+.chan_ba_img_fon {
+  background-image: url(../../Assests/images/heart-3293531_1280.png);
+}
+
+.change_container_prop .h8 {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.change_btn_fon button {
+  text-decoration-line: none;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to right,
+    #582c83 0%,
+    rgb(158, 102, 214) 51%,
+    #77a1d3 100%
+  );
+  border: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+.change_btn_fon button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: translate(15px);
+  transition: transform 0.2s ease-in;
+}
+
+.harshith_fcd {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  border: 2px solid 582c83;
+  height: 60px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+.harshith_fcd:focus {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 2px solid #582c83;
+  box-shadow: none;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+::harshith_fcd placeholder {
+  font-size: 14px;
+  font-weight: 600;
+}
+.change_ssss {
+  font-size: smaller;
+}
+.change_cl_ttt {
+  text-decoration: none;
+}

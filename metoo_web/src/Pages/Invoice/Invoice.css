@@ -1,0 +1,144 @@
+.invoice_container {
+  margin-top: 20px;
+  border: 1px solid white;
+  height: 155vh;
+}
+.invoice_bill {
+  border: 1px solid red;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 16px gray;
+  margin-top: 20px;
+  margin-left: 25%;
+  width: 50%;
+  height: 140vh;
+}
+.invoice_bill h1 {
+  font-size: x-large;
+  font-weight: bold;
+  padding-right: 300px;
+  padding-top: 20px;
+}
+.invoice_content {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 3px solid rgb(64, 62, 62);
+  padding-bottom: 10px;
+}
+.invoice_content img {
+  margin-left: -15px;
+}
+.bill_number {
+  padding-top: 45px;
+  display: flex;
+  gap: 2rem;
+}
+.bill_date {
+  display: flex;
+  gap: 3rem;
+}
+.invoice_address {
+  margin-top: 10px;
+  height: 28vh;
+  border: 1px solid red;
+  border: none;
+  display: flex;
+}
+.invoice_table_left {
+  border: 1px solid red;
+  border: none;
+  padding-left: 30px;
+  width: 50%;
+  height: 28vh;
+}
+.invoice_table_left h6 {
+  padding-left: 30px;
+}
+.invoice_table_left p {
+  padding-left: 30px;
+}
+.invoice_table_right {
+  border: 1px solid red;
+  border: none;
+  padding-left: 50px;
+  width: 50%;
+  height: 28vh;
+}
+.invoice_table_right h6 {
+  padding-left: 30px;
+}
+.invoice_table_right p {
+  padding-left: 30px;
+}
+.bill_phone {
+  margin-top: -15px;
+}
+.invoice_header {
+  display: flex;
+  text-align: center;
+  padding-top: 12px;
+  border: 1px solid red;
+  border: none;
+  height: 7vh;
+  background-color: rgb(156, 154, 154);
+  justify-content: center;
+}
+.invoice_body {
+  display: flex;
+  padding: 10px;
+  height: 9vh;
+  justify-content: center;
+  text-align: center;
+  border-bottom-style: dashed;
+  border-color: rgba(183, 180, 180, 0.503);
+}
+.invoice_total {
+  border: 1px solid red;
+  border: none;
+  margin-left: 50%;
+  width: 40%;
+}
+.price_total {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: -20px;
+}
+.border_bottom {
+  border-bottom-style: dashed;
+  border-color: rgba(183, 180, 180, 0.503);
+}
+.invoice_seller {
+  margin-top: 10px;
+  padding-left: 30px;
+  border-bottom: 2px solid rgb(64, 62, 62);
+}
+.invoice_seller h6 {
+  padding-left: 30px;
+}
+.invoice_seller p {
+  padding-left: 30px;
+}
+.invoice_terms {
+  padding-left: 30px;
+  margin-top: 10px;
+}
+.invoice_terms p {
+  font-size: small;
+  padding-left: 20px;
+}
+.invoice_footer {
+  margin-top: 50px;
+  text-align: center;
+  font-style: italic;
+}
+.download_invoice {
+  margin-left: 670px;
+  margin-top: 20px;
+  background-color: #9565cc;
+  border-radius: 15px;
+  border: none;
+  padding: 8px;
+  color: whitesmoke;
+  width: 10%;
+}

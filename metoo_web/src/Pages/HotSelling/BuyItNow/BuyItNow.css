@@ -1,0 +1,42 @@
+.ADDRESS_SIDE {
+  background-color: #1c2e46;
+}
+.gradient-custom1 {
+  background: #fccb90;
+  background: -webkit-linear-gradient(
+    to bottom right,
+    rgb(234, 7, 255),
+    #1414e393
+  );
+
+  background: linear-gradient(to bottom right, rgb(234, 7, 255), #1414e393);
+}
+.COD_ONLINE_PAYMENT_BTN {
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.COD_ONLINE_PAYMENT_BTN:hover {
+  background-color: white;
+}
+
+.product_details_pic {
+  width: 100px;
+  height: 60px;
+}
+
+.product_details_pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15%;
+  margin-top: 20px !important;
+}
+.coupondisplay {
+  margin-top: 10px;
+}
+.coupondisplaycard {
+  background-color: #e9bd37;
+}

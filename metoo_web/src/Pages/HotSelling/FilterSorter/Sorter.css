@@ -1,0 +1,14 @@
+#offcanvasExample {
+  max-width: auto !important;
+  height: 55% !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+}
+
+.TC {
+  color: #b965cc;
+}
+
+.TCbg {
+  background-color: #b965cc;
+}

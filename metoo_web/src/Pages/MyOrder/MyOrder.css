@@ -1,0 +1,73 @@
+.bac_cl_cc {
+  background-color: rgb(155, 97, 209);
+}
+.change_list_st li {
+  list-style: none;
+}
+.change_list_st {
+  justify-content: space-between;
+}
+.change_sise_in_pic {
+  width: 100px;
+  border-radius: 10%;
+}
+.custom-head-colour {
+  background-color: #d5d9d9;
+}
+.btn_cc_vv button {
+  border-style: none;
+  background-color: #1c2e46;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.text_clr_cha_p {
+  color: #1c2e46;
+}
+
+.btn_cc_vv button:hover {
+  border-style: none;
+  background-color: #EB2562;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn_cc_vv {
+  align-items: center;
+  text-align: center;
+}
+.tex_ce_alig {
+  text-align: center;
+}
+.tex_ce_alig a {
+  text-decoration: none;
+  color: gray;
+}
+#cancelReasonForm.form-control {
+  height: 100px !important;
+}
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.modal-dialog {
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 390px) {
+  .change_over_all_size {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .change_sise_in_pic {
+    width: 75px;
+    height: 75px;
+  }
+}
