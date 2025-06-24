@@ -1,0 +1,17 @@
+* {
+  font-family: "poppins";
+}
+
+.AppFormDoc .AppFormRight1 {
+  background-image: url("../../Assests/Images/Figma.png");
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+
+.cntnbtn {
+  background-color: #07676f;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 20px 5px 20px;
+}

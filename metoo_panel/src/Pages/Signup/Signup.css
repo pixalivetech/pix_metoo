@@ -1,0 +1,29 @@
+* {
+  font-family: "poppins";
+}
+
+.AppForm .AppFormRight1 {
+  background-image: url("../../Assests/Images/Figma.png");
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+.comcntnbtn {
+  background-color: #07676f;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+
+.form-group input {
+  max-width: 300px;
+  width: 100%;
+}
+
+.form-text {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  margin-top: 8px;
+}

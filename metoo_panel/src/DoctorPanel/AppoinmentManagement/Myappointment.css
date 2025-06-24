@@ -1,0 +1,94 @@
+.custom-bg-color {
+  background-color: #ede9eb;
+}
+.appoint {
+  margin-right: 50px;
+  width: 75%;
+}
+.small-app {
+  display: flex;
+}
+.iconz {
+  margin-left: 10px;
+}
+.iconzz {
+  margin-left: 100px;
+}
+.text-icon {
+  margin-left: 10px;
+}
+.underline1 {
+  border-bottom: 4px solid #fbbf24;
+  width: 15%;
+}
+.detail-content {
+  width: 30%;
+}
+.detail-contented {
+  width: 70%;
+}
+@media screen and (max-width: 768px) {
+  .custom-bg-color {
+    background-color: #855bd8;
+  }
+  .appointment-card {
+    gap: 2rem;
+  }
+  .appointment-card h5 {
+    font-size: 8px;
+  }
+  .appointment-card p {
+    font-size: 7px;
+  }
+  .appoint {
+    width: 90%;
+    margin-left: 60px !important;
+  }
+  .small-app {
+    display: block;
+  }
+  .detail-content {
+    width: 100% !important;
+  }
+  .detail-contented {
+    width: 100% !important;
+  }
+  .iconz img {
+    width: 50px !important;
+    height: 40px;
+  }
+  .iconzz img {
+    width: 50px !important;
+    height: 40px;
+  }
+  .iconz {
+    margin-left: 0px !important;
+    justify-content: initial !important;
+  }
+  .iconzz {
+    margin-left: 0px !important;
+    justify-content: initial !important;
+  }
+  .text-icon {
+    margin-left: 0px !important;
+  }
+}
+.custom-bg-colorr {
+  background-color: rgb(162, 35, 230);
+}
+.iconz img {
+  width: 50px;
+  height: 40px;
+}
+.iconzz img {
+  width: 50px;
+  height: 40px;
+}
+.iconz1 img {
+  width: 50px;
+  height: 40px;
+}
+.iconzz1 img {
+  width: 50px;
+  height: 40px;
+}

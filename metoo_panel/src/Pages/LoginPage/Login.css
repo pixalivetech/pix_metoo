@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: "poppins";
+}
+
+.back_color_login {
+  background-color: #c8eef1;
+}
+
+.loginleftside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginleftside button {
+  background-color: #07676f;
+  color: white;
+  border-radius: 30px;
+  padding: 5px 20px 5px 20px;
+}
+
+.form-group input {
+  max-width: 400px;
+  width: 100%;
+}
+
+.AppForm .AppFormRight {
+  background-image: url("../../Assests/Images/Figma.png");
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+}
+
+.login_center_big_screen {
+  position: relative;
+  margin: 6% center auto;
+  margin-top: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+  .login_center_big_screen {
+    position: relative;
+    margin: 6% center auto;
+    margin-top: -20vh;
+  }
+}
